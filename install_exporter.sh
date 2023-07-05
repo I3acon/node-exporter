@@ -11,7 +11,7 @@ echo "=================================================="
 
 sleep 2
 
-echo -e "\e[1m\e[32m2. Installing node-exporter... \e[0m" && sleep 1
+echo -e "\e[1m\e[32m1. Installing node-exporter... \e[0m" && sleep 1
 # install node-exporter
 wget https://github.com/prometheus/node_exporter/releases/download/v1.6.0/node_exporter-1.6.0.linux-amd64.tar.gz
 tar xvfz node_exporter-*.*-amd64.tar.gz
