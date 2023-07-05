@@ -5,7 +5,7 @@
 ### Install exporters on validator node
 First of all you will have to install exporters on validator node. For that you can use one-liner below
 ```
-wget -O install_exporters.sh https://raw.githubusercontent.com/I3acon/node-exporter/main/install_exporters.sh && chmod +x install_exporters.sh && ./install_exporters.sh
+wget -O install_exporters.sh https://raw.githubusercontent.com/I3acon/node-exporter/main/install_node_exporter.sh && chmod +x install_exporters.sh && ./install_exporters.sh
 ```
 
 make sure following ports are open:
